@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AVMultiCamPiP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WOD-qV-bPs" customClass="PreviewView" customModule="AVMultiCamPiP" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="87" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLU-Vt-ZWG" customClass="PreviewView" customModule="AVMultiCamPiP" customModuleProvider="target">
+                                        <rect key="frame" x="270" y="132" width="103.5" height="184"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" secondItem="iLU-Vt-ZWG" secondAttribute="width" multiplier="16:9" id="QG3-je-SN8"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="iLU-Vt-ZWG" firstAttribute="width" secondItem="WOD-qV-bPs" secondAttribute="width" multiplier="0.25" id="aQK-ne-ZWK"/>
+                                    <constraint firstAttribute="bottom" secondItem="iLU-Vt-ZWG" secondAttribute="bottom" constant="420" id="cMi-y9-RzU"/>
+                                    <constraint firstAttribute="height" secondItem="WOD-qV-bPs" secondAttribute="width" multiplier="16:9" id="hFe-b4-Urr"/>
+                                    <constraint firstAttribute="trailing" secondItem="iLU-Vt-ZWG" secondAttribute="trailing" constant="40.5" id="pri-Fl-Fjx"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLg-cy-w81">
+                                <rect key="frame" x="166" y="773" width="82" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="RvO-1k-mW6"/>
+                                    <constraint firstAttribute="height" constant="30" id="vBV-Ec-dFO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="开始直播">
+                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startAgoraLiveStream:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTS-xI-mcZ"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera Unavailable" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNA-vj-IrB" userLabel="Camera Unavailable">
+                                <rect key="frame" x="103.5" y="440.5" width="207" height="29"/>
+                                <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvi-Ng-fni" userLabel="Resume">
+                                <rect key="frame" x="124.5" y="435.5" width="165" height="39"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                                <state key="normal" title="Tap to resume">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resumeInterruptedSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDQ-Gk-zmz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23333" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9U-q4-jpN">
+                                <rect key="frame" x="158.5" y="64" width="97" height="37"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="4MI-48-LI5"/>
+                                    <constraint firstAttribute="height" constant="37" id="63f-u0-Z0w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" priority="750" id="2gD-HS-Mqz"/>
+                            <constraint firstItem="Wvi-Ng-fni" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="68u-Uj-ahi"/>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7Ap-XQ-8gM"/>
+                            <constraint firstItem="Wvi-Ng-fni" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="9wQ-VD-4qJ"/>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="GLN-Xd-Uyd"/>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="bottom" secondItem="SLg-cy-w81" secondAttribute="bottom" constant="20" id="JXC-aX-wJY"/>
+                            <constraint firstItem="a9U-q4-jpN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YXb-uz-ljc"/>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" priority="750" id="bIS-Rr-ptX"/>
+                            <constraint firstItem="a9U-q4-jpN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="64" id="bYB-le-3xq"/>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="width" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="width" id="cPh-0V-7yr"/>
+                            <constraint firstItem="MNA-vj-IrB" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ftC-dx-OXA"/>
+                            <constraint firstItem="SLg-cy-w81" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jck-2y-8GM"/>
+                            <constraint firstItem="MNA-vj-IrB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nwM-m5-spz"/>
+                            <constraint firstItem="WOD-qV-bPs" firstAttribute="height" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="height" id="vTZ-7v-zbJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backCameraVideoPreviewView" destination="WOD-qV-bPs" id="ra6-Ok-khD"/>
+                        <outlet property="cameraUnavailableLabel" destination="MNA-vj-IrB" id="DHr-gt-WAW"/>
+                        <outlet property="channelLabel" destination="a9U-q4-jpN" id="Qgf-wj-07e"/>
+                        <outlet property="frontCameraVideoPreviewView" destination="iLU-Vt-ZWG" id="b2V-KG-PHW"/>
+                        <outlet property="liveButton" destination="SLg-cy-w81" id="VQn-Ok-V1i"/>
+                        <outlet property="resumeButton" destination="Wvi-Ng-fni" id="brr-go-csn"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="2gD-HS-Mqz" collectionClass="NSMutableArray" id="hkP-yg-Awn"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="7Ap-XQ-8gM" collectionClass="NSMutableArray" id="2cM-la-TUw"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="GLN-Xd-Uyd" collectionClass="NSMutableArray" id="PNW-KC-taZ"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="bIS-Rr-ptX" collectionClass="NSMutableArray" id="Upl-40-pBa"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="cPh-0V-7yr" collectionClass="NSMutableArray" id="xBu-zH-54n"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="vTZ-7v-zbJ" collectionClass="NSMutableArray" id="qUE-o8-quy"/>
+                        <outletCollection property="frontCameraPiPConstraints" destination="JXC-aX-wJY" collectionClass="NSMutableArray" id="7KP-2F-bzS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
