@@ -18,38 +18,7 @@
 		42E159EC227A481C00F81016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E159EA227A481C00F81016 /* LaunchScreen.storyboard */; };
 		42E15A12227A5CB800F81016 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E15A11227A5CB800F81016 /* PreviewView.swift */; };
 		42E15A51227B8B3900F81016 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 42E15A50227B8B3900F81016 /* README.md */; };
-		5E3EF8F829DD0B7F00171DC4 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E629DD0AF400171DC4 /* AgoraAiEchoCancellationExtension.xcframework */; };
-		5E3EF8F929DD0B7F00171DC4 /* AgoraAiEchoCancellationExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E629DD0AF400171DC4 /* AgoraAiEchoCancellationExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF8FB29DD0B8000171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E029DD0AF400171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework */; };
-		5E3EF8FC29DD0B8000171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E029DD0AF400171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF8FD29DD0B8200171DC4 /* AgoraAudioBeautyExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8D829DD0AF400171DC4 /* AgoraAudioBeautyExtension.xcframework */; };
-		5E3EF8FE29DD0B8200171DC4 /* AgoraAudioBeautyExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8D829DD0AF400171DC4 /* AgoraAudioBeautyExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF8FF29DD0B8300171DC4 /* AgoraClearVisionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DC29DD0AF400171DC4 /* AgoraClearVisionExtension.xcframework */; };
-		5E3EF90029DD0B8300171DC4 /* AgoraClearVisionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DC29DD0AF400171DC4 /* AgoraClearVisionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90129DD0B8500171DC4 /* AgoraContentInspectExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DF29DD0AF400171DC4 /* AgoraContentInspectExtension.xcframework */; };
-		5E3EF90229DD0B8500171DC4 /* AgoraContentInspectExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DF29DD0AF400171DC4 /* AgoraContentInspectExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90329DD0B8600171DC4 /* AgoraDav1d.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E129DD0AF400171DC4 /* AgoraDav1d.xcframework */; };
-		5E3EF90429DD0B8600171DC4 /* AgoraDav1d.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E129DD0AF400171DC4 /* AgoraDav1d.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90529DD0B8800171DC4 /* AgoraDrmLoaderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E529DD0AF400171DC4 /* AgoraDrmLoaderExtension.xcframework */; };
-		5E3EF90629DD0B8800171DC4 /* AgoraDrmLoaderExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E529DD0AF400171DC4 /* AgoraDrmLoaderExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90729DD0B8900171DC4 /* AgoraFaceDetectionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DD29DD0AF400171DC4 /* AgoraFaceDetectionExtension.xcframework */; };
-		5E3EF90829DD0B8900171DC4 /* AgoraFaceDetectionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DD29DD0AF400171DC4 /* AgoraFaceDetectionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90929DD0B8C00171DC4 /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E229DD0AF400171DC4 /* Agorafdkaac.xcframework */; };
-		5E3EF90A29DD0B8C00171DC4 /* Agorafdkaac.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E229DD0AF400171DC4 /* Agorafdkaac.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90B29DD0B8D00171DC4 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DA29DD0AF400171DC4 /* Agoraffmpeg.xcframework */; };
-		5E3EF90C29DD0B8E00171DC4 /* Agoraffmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DA29DD0AF400171DC4 /* Agoraffmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90D29DD0B8F00171DC4 /* AgoraReplayKitExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E429DD0AF400171DC4 /* AgoraReplayKitExtension.xcframework */; };
-		5E3EF90E29DD0B9000171DC4 /* AgoraReplayKitExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E429DD0AF400171DC4 /* AgoraReplayKitExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF90F29DD0B9200171DC4 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DB29DD0AF400171DC4 /* AgoraRtcKit.xcframework */; };
-		5E3EF91029DD0B9300171DC4 /* AgoraRtcKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DB29DD0AF400171DC4 /* AgoraRtcKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF91129DD0B9500171DC4 /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E329DD0AF400171DC4 /* AgoraSoundTouch.xcframework */; };
-		5E3EF91229DD0B9500171DC4 /* AgoraSoundTouch.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E329DD0AF400171DC4 /* AgoraSoundTouch.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF91329DD0B9700171DC4 /* AgoraSpatialAudioExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8D929DD0AF400171DC4 /* AgoraSpatialAudioExtension.xcframework */; };
-		5E3EF91429DD0B9700171DC4 /* AgoraSpatialAudioExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8D929DD0AF400171DC4 /* AgoraSpatialAudioExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF91529DD0B9900171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E729DD0AF400171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework */; };
-		5E3EF91629DD0B9900171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8E729DD0AF400171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5E3EF91729DD0B9C00171DC4 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DE29DD0AF400171DC4 /* AgoraVideoSegmentationExtension.xcframework */; };
-		5E3EF91829DD0B9C00171DC4 /* AgoraVideoSegmentationExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3EF8DE29DD0AF400171DC4 /* AgoraVideoSegmentationExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F616FA565CC2B47FAD81BE3F /* Pods_AVMultiCamPiP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7867D7197E5329A803D13658 /* Pods_AVMultiCamPiP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,22 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5E3EF90E29DD0B9000171DC4 /* AgoraReplayKitExtension.xcframework in Embed Frameworks */,
-				5E3EF8FE29DD0B8200171DC4 /* AgoraAudioBeautyExtension.xcframework in Embed Frameworks */,
-				5E3EF90629DD0B8800171DC4 /* AgoraDrmLoaderExtension.xcframework in Embed Frameworks */,
-				5E3EF91629DD0B9900171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework in Embed Frameworks */,
-				5E3EF90429DD0B8600171DC4 /* AgoraDav1d.xcframework in Embed Frameworks */,
-				5E3EF90829DD0B8900171DC4 /* AgoraFaceDetectionExtension.xcframework in Embed Frameworks */,
-				5E3EF91029DD0B9300171DC4 /* AgoraRtcKit.xcframework in Embed Frameworks */,
-				5E3EF90A29DD0B8C00171DC4 /* Agorafdkaac.xcframework in Embed Frameworks */,
-				5E3EF91229DD0B9500171DC4 /* AgoraSoundTouch.xcframework in Embed Frameworks */,
-				5E3EF8F929DD0B7F00171DC4 /* AgoraAiEchoCancellationExtension.xcframework in Embed Frameworks */,
-				5E3EF90029DD0B8300171DC4 /* AgoraClearVisionExtension.xcframework in Embed Frameworks */,
-				5E3EF91429DD0B9700171DC4 /* AgoraSpatialAudioExtension.xcframework in Embed Frameworks */,
-				5E3EF90229DD0B8500171DC4 /* AgoraContentInspectExtension.xcframework in Embed Frameworks */,
-				5E3EF8FC29DD0B8000171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework in Embed Frameworks */,
-				5E3EF91829DD0B9C00171DC4 /* AgoraVideoSegmentationExtension.xcframework in Embed Frameworks */,
-				5E3EF90C29DD0B8E00171DC4 /* Agoraffmpeg.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,23 +49,9 @@
 		42E159ED227A481C00F81016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E15A11227A5CB800F81016 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		42E15A50227B8B3900F81016 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5E3EF8D829DD0AF400171DC4 /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8D929DD0AF400171DC4 /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8DA29DD0AF400171DC4 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
-		5E3EF8DB29DD0AF400171DC4 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
-		5E3EF8DC29DD0AF400171DC4 /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8DD29DD0AF400171DC4 /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8DE29DD0AF400171DC4 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8DF29DD0AF400171DC4 /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8E029DD0AF400171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8E129DD0AF400171DC4 /* AgoraDav1d.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDav1d.xcframework; sourceTree = "<group>"; };
-		5E3EF8E229DD0AF400171DC4 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
-		5E3EF8E329DD0AF400171DC4 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
-		5E3EF8E429DD0AF400171DC4 /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8E529DD0AF400171DC4 /* AgoraDrmLoaderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDrmLoaderExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8E629DD0AF400171DC4 /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
-		5E3EF8E729DD0AF400171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
-		9B4C40DFF7FE51DE3B93734E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		52E37B27934FB68D3081C124 /* Pods-AVMultiCamPiP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVMultiCamPiP.debug.xcconfig"; path = "Target Support Files/Pods-AVMultiCamPiP/Pods-AVMultiCamPiP.debug.xcconfig"; sourceTree = "<group>"; };
+		640BFB27F1F844074B66F549 /* Pods-AVMultiCamPiP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVMultiCamPiP.release.xcconfig"; path = "Target Support Files/Pods-AVMultiCamPiP/Pods-AVMultiCamPiP.release.xcconfig"; sourceTree = "<group>"; };
+		7867D7197E5329A803D13658 /* Pods_AVMultiCamPiP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVMultiCamPiP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,45 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3EF8F829DD0B7F00171DC4 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */,
-				5E3EF90929DD0B8C00171DC4 /* Agorafdkaac.xcframework in Frameworks */,
-				5E3EF91529DD0B9900171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */,
-				5E3EF8FF29DD0B8300171DC4 /* AgoraClearVisionExtension.xcframework in Frameworks */,
-				5E3EF90729DD0B8900171DC4 /* AgoraFaceDetectionExtension.xcframework in Frameworks */,
-				5E3EF91329DD0B9700171DC4 /* AgoraSpatialAudioExtension.xcframework in Frameworks */,
-				5E3EF90529DD0B8800171DC4 /* AgoraDrmLoaderExtension.xcframework in Frameworks */,
-				5E3EF90D29DD0B8F00171DC4 /* AgoraReplayKitExtension.xcframework in Frameworks */,
-				5E3EF91129DD0B9500171DC4 /* AgoraSoundTouch.xcframework in Frameworks */,
-				5E3EF90329DD0B8600171DC4 /* AgoraDav1d.xcframework in Frameworks */,
-				5E3EF90F29DD0B9200171DC4 /* AgoraRtcKit.xcframework in Frameworks */,
-				5E3EF90129DD0B8500171DC4 /* AgoraContentInspectExtension.xcframework in Frameworks */,
-				5E3EF90B29DD0B8D00171DC4 /* Agoraffmpeg.xcframework in Frameworks */,
-				5E3EF8FB29DD0B8000171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */,
-				5E3EF91729DD0B9C00171DC4 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */,
-				5E3EF8FD29DD0B8200171DC4 /* AgoraAudioBeautyExtension.xcframework in Frameworks */,
+				F616FA565CC2B47FAD81BE3F /* Pods_AVMultiCamPiP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		361A3263D29295C292C5515B /* Configuration */ = {
+		176FA024EA3AAC419A30CD3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B4C40DFF7FE51DE3B93734E /* SampleCode.xcconfig */,
+				7867D7197E5329A803D13658 /* Pods_AVMultiCamPiP.framework */,
 			);
-			name = Configuration;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		42E159D5227A481B00F81016 = {
 			isa = PBXGroup;
 			children = (
 				42E15A50227B8B3900F81016 /* README.md */,
-				5E3EF8D729DD0AF400171DC4 /* libs */,
 				42E159E0227A481B00F81016 /* AVMultiCamPiP */,
 				42E159DF227A481B00F81016 /* Products */,
-				361A3263D29295C292C5515B /* Configuration */,
 				863EF8EB49D22E79436F4456 /* LICENSE */,
+				4D343996BC2976FF49C04F69 /* Pods */,
+				176FA024EA3AAC419A30CD3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,27 +112,13 @@
 			path = AVMultiCamPiP;
 			sourceTree = "<group>";
 		};
-		5E3EF8D729DD0AF400171DC4 /* libs */ = {
+		4D343996BC2976FF49C04F69 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E3EF8D829DD0AF400171DC4 /* AgoraAudioBeautyExtension.xcframework */,
-				5E3EF8D929DD0AF400171DC4 /* AgoraSpatialAudioExtension.xcframework */,
-				5E3EF8DA29DD0AF400171DC4 /* Agoraffmpeg.xcframework */,
-				5E3EF8DB29DD0AF400171DC4 /* AgoraRtcKit.xcframework */,
-				5E3EF8DC29DD0AF400171DC4 /* AgoraClearVisionExtension.xcframework */,
-				5E3EF8DD29DD0AF400171DC4 /* AgoraFaceDetectionExtension.xcframework */,
-				5E3EF8DE29DD0AF400171DC4 /* AgoraVideoSegmentationExtension.xcframework */,
-				5E3EF8DF29DD0AF400171DC4 /* AgoraContentInspectExtension.xcframework */,
-				5E3EF8E029DD0AF400171DC4 /* AgoraAiNoiseSuppressionExtension.xcframework */,
-				5E3EF8E129DD0AF400171DC4 /* AgoraDav1d.xcframework */,
-				5E3EF8E229DD0AF400171DC4 /* Agorafdkaac.xcframework */,
-				5E3EF8E329DD0AF400171DC4 /* AgoraSoundTouch.xcframework */,
-				5E3EF8E429DD0AF400171DC4 /* AgoraReplayKitExtension.xcframework */,
-				5E3EF8E529DD0AF400171DC4 /* AgoraDrmLoaderExtension.xcframework */,
-				5E3EF8E629DD0AF400171DC4 /* AgoraAiEchoCancellationExtension.xcframework */,
-				5E3EF8E729DD0AF400171DC4 /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+				52E37B27934FB68D3081C124 /* Pods-AVMultiCamPiP.debug.xcconfig */,
+				640BFB27F1F844074B66F549 /* Pods-AVMultiCamPiP.release.xcconfig */,
 			);
-			path = libs;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		863EF8EB49D22E79436F4456 /* LICENSE */ = {
@@ -226,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42E159F0227A481C00F81016 /* Build configuration list for PBXNativeTarget "AVMultiCamPiP" */;
 			buildPhases = (
+				7B5857BB8FFE50C3C584840F /* [CP] Check Pods Manifest.lock */,
 				42E159DA227A481B00F81016 /* Sources */,
 				42E159DB227A481B00F81016 /* Frameworks */,
 				42E159DC227A481B00F81016 /* Resources */,
 				5E3EF8FA29DD0B7F00171DC4 /* Embed Frameworks */,
+				F8D1CAEE4459C842F42A3FD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +199,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B5857BB8FFE50C3C584840F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVMultiCamPiP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D1CAEE4459C842F42A3FD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVMultiCamPiP/Pods-AVMultiCamPiP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVMultiCamPiP/Pods-AVMultiCamPiP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVMultiCamPiP/Pods-AVMultiCamPiP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42E159DA227A481B00F81016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -326,7 +280,6 @@
 /* Begin XCBuildConfiguration section */
 		42E159EE227A481C00F81016 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4C40DFF7FE51DE3B93734E /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -390,7 +343,6 @@
 		};
 		42E159EF227A481C00F81016 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4C40DFF7FE51DE3B93734E /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -448,7 +400,7 @@
 		};
 		42E159F1227A481C00F81016 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4C40DFF7FE51DE3B93734E /* SampleCode.xcconfig */;
+			baseConfigurationReference = 52E37B27934FB68D3081C124 /* Pods-AVMultiCamPiP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -460,7 +412,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AVMultiCamPiP${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AVMultiCamPiP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -470,7 +422,7 @@
 		};
 		42E159F2227A481C00F81016 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4C40DFF7FE51DE3B93734E /* SampleCode.xcconfig */;
+			baseConfigurationReference = 640BFB27F1F844074B66F549 /* Pods-AVMultiCamPiP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -482,7 +434,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AVMultiCamPiP${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AVMultiCamPiP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

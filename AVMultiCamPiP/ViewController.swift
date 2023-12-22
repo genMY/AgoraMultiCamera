@@ -19,7 +19,7 @@ class ViewController: UIViewController, AVCaptureAudioDataOutputSampleBufferDele
 		super.viewDidLoad()
 		
         
-      agoraRtcEngine =   AgoraRtcEngineKit.sharedEngine(withAppId: "测试的appid", delegate: self)
+      agoraRtcEngine =   AgoraRtcEngineKit.sharedEngine(withAppId: "aab8b8f5a8cd4469a63042fcfafe7063", delegate: self)
         agoraRtcEngine?.setChannelProfile(AgoraChannelProfile.liveBroadcasting)
 
         agoraRtcEngine?.enableVideo()
